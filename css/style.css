@@ -152,6 +152,23 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
+/* Language switcher */
+.nav-links a.lang-switch {
+    font-weight: bold;
+    font-size: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 4px 10px;
+    margin-left: 8px;
+    letter-spacing: 0.04em;
+}
+
+.nav-links a.lang-switch:hover {
+    border-color: var(--text);
+    background: var(--text);
+    color: var(--bg);
+}
+
 .navbar.scrolled .nav-logo {
     color: var(--text);
 }
@@ -757,6 +774,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-light);
     margin-bottom: 2px;
     font-style: normal;
+}
+
+.pub-conference {
+    font-size: 0.82rem;
+    color: var(--text);
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .pub-venue {
